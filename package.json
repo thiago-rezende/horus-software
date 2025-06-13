@@ -2,6 +2,11 @@
   "name": "horus-software",
   "version": "0.0.0",
   "description": "horus.software ecosystem",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {},
   "author": "Thiago Rezende <thiago.manoel.rezende@gmail.com>",
   "license": "BSD-3-Clause"
