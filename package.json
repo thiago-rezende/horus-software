@@ -1,0 +1,8 @@
+{
+  "name": "horus-software",
+  "version": "0.0.0",
+  "description": "horus.software ecosystem",
+  "scripts": {},
+  "author": "Thiago Rezende <thiago.manoel.rezende@gmail.com>",
+  "license": "BSD-3-Clause"
+}
