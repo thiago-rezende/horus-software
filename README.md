@@ -5,7 +5,7 @@
 
 # HORUS · SOFTWARE
 
-[![license-badge]][license-url] [![typescript-badge]][typescript-url] [![pnpm-badge]][pnpm-url] [![nestjs-badge]][nestjs-url] [![angular-badge]][angular-url]
+[![license-badge]][license-url] [![pnpm-badge]][pnpm-url] [![typescript-badge]][typescript-url] [![nestjs-badge]][nestjs-url] [![angular-badge]][angular-url]
 
 <!-- Short Description -->
 
@@ -13,7 +13,7 @@
 
 <!-- Description -->
 
-This monorepo contains all core projects and shared packages of the [horus.software][horus-software-url] ecosystem. Built with [TypeScript][typescript-url], it leverages [PNPM][pnpm-url] workspaces for scalable development, using [NestJS][nestjs-url] for backend services and [Angular][angular-url] for frontend applications.
+This monorepo contains all core projects and shared packages of the [horus.software][horus-software-url] ecosystem. Built with [PNPM][pnpm-url] workspaces for scalable development, using [TypeScript][typescript-url], [NestJS][nestjs-url] for backend services and [Angular][angular-url] for frontend applications.
 
 <!-- Links -->
 
