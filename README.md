@@ -26,8 +26,8 @@ This monorepo contains all core projects and shared packages of the [horus.softw
 
 <!-- Badges -->
 
-[nx-badge]: https://img.shields.io/badge/Nx-latest-1E4880.svg?style=flat-square&logo=nx&logoColor=white&labelColor=gray
-[nestjs-badge]: https://img.shields.io/badge/NestJS-latest-EA2849.svg?style=flat-square&logo=nestjs&logoColor=white&labelColor=gray
-[angular-badge]: https://img.shields.io/badge/Angular-latest-AC39FC.svg?style=flat-square&logo=angular&logoColor=white&labelColor=gray
+[nx-badge]: https://img.shields.io/badge/Nx-latest-143055.svg?style=flat-square&logo=nx&logoColor=white&labelColor=gray
+[nestjs-badge]: https://img.shields.io/badge/NestJS-latest-E0234E.svg?style=flat-square&logo=nestjs&logoColor=white&labelColor=gray
+[angular-badge]: https://img.shields.io/badge/Angular-latest-0F0F11.svg?style=flat-square&logo=angular&logoColor=white&labelColor=gray
 [typescript-badge]: https://img.shields.io/badge/TypeScript-latest-3178C6.svg?style=flat-square&logo=typescript&logoColor=white&labelColor=gray
 [license-badge]: https://img.shields.io/badge/license-BSD_3_Clause-3DA639.svg?style=flat-square&logo=opensourceinitiative&logoColor=white&labelColor=gray
