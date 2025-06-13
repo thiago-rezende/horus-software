@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    /* target */
+    "target": "ESNext",
+    "module": "ESNext",
+
+    /* module resolution */
+    "moduleResolution": "node",
+
+    /* libraries */
+    "lib": ["ESNext"],
+
+    /* interoperability */
+    "esModuleInterop": true,
+
+    /* file naming */
+    "forceConsistentCasingInFileNames": true,
+
+    /* output & codebase */
+    "outDir": "./build",
+    "baseUrl": ".",
+
+    /* strict */
+    "strict": true,
+    "alwaysStrict": true,
+
+    /* implicit behavior */
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+
+    /* unused code */
+    "noUnusedLocals": true,
+    "allowUnusedLabels": false,
+    "noUnusedParameters": true,
+    "allowUnreachableCode": false,
+
+    /* catch behavior */
+    "useUnknownInCatchVariables": true,
+
+    /* optionals */
+    "exactOptionalPropertyTypes": true,
+
+    /* control flow */
+    "noFallthroughCasesInSwitch": true,
+
+    /* indexing */
+    "noUncheckedIndexedAccess": true,
+    "noPropertyAccessFromIndexSignature": true,
+
+    /* completeness */
+    "skipLibCheck": true
+  }
+}

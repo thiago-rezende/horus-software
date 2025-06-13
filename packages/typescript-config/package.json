@@ -1,0 +1,12 @@
+{
+  "name": "@horus-software/typescript-config",
+  "version": "0.0.0",
+  "description": "horus.software typescript configuration",
+  "private": true,
+  "files": [
+    "tsconfig.base.json"
+  ],
+  "scripts": {},
+  "author": "Thiago Rezende <thiago.manoel.rezende@gmail.com>",
+  "license": "BSD-3-Clause"
+}
