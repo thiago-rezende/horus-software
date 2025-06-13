@@ -5,7 +5,7 @@
 
 # HORUS · SOFTWARE
 
-[![license-badge]][license-url] [![typescript-badge]][typescript-url] [![nx-badge]][nx-url] [![nestjs-badge]][nestjs-url] [![angular-badge]][angular-url]
+[![license-badge]][license-url] [![typescript-badge]][typescript-url] [![pnpm-badge]][pnpm-url] [![nestjs-badge]][nestjs-url] [![angular-badge]][angular-url]
 
 <!-- Short Description -->
 
@@ -13,11 +13,11 @@
 
 <!-- Description -->
 
-This monorepo contains all core projects and shared packages of the [horus.software][horus-software-url] ecosystem. Built with [TypeScript][typescript-url], it leverages [Nx][nx-url] for scalable development, using [NestJS][nestjs-url] for backend services and [Angular][angular-url] for frontend applications.
+This monorepo contains all core projects and shared packages of the [horus.software][horus-software-url] ecosystem. Built with [TypeScript][typescript-url], it leverages [PNPM][pnpm-url] workspaces for scalable development, using [NestJS][nestjs-url] for backend services and [Angular][angular-url] for frontend applications.
 
 <!-- Links -->
 
-[nx-url]: https://nx.dev
+[pnpm-url]: https://pnpm.io/
 [nestjs-url]: https://nestjs.com
 [angular-url]: https://angular.dev
 [horus-software-url]: https://horus.software
@@ -26,7 +26,7 @@ This monorepo contains all core projects and shared packages of the [horus.softw
 
 <!-- Badges -->
 
-[nx-badge]: https://img.shields.io/badge/Nx-latest-143055.svg?style=flat-square&logo=nx&logoColor=white&labelColor=gray
+[pnpm-badge]: https://img.shields.io/badge/PNPM-latest-F69220.svg?style=flat-square&logo=pnpm&logoColor=white&labelColor=gray
 [nestjs-badge]: https://img.shields.io/badge/NestJS-latest-E0234E.svg?style=flat-square&logo=nestjs&logoColor=white&labelColor=gray
 [angular-badge]: https://img.shields.io/badge/Angular-latest-0F0F11.svg?style=flat-square&logo=angular&logoColor=white&labelColor=gray
 [typescript-badge]: https://img.shields.io/badge/TypeScript-latest-3178C6.svg?style=flat-square&logo=typescript&logoColor=white&labelColor=gray
