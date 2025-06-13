@@ -6,7 +6,6 @@
   "files": [
     "tsconfig.base.json"
   ],
-  "scripts": {},
   "author": "Thiago Rezende <thiago.manoel.rezende@gmail.com>",
   "license": "BSD-3-Clause"
 }

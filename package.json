@@ -7,7 +7,13 @@
     "apps/*",
     "packages/*"
   ],
-  "scripts": {},
+  "scripts": {
+    "watch": "pnpm --recursive watch",
+    "build": "pnpm --recursive build",
+    "check": "pnpm --recursive check",
+    "style": "pnpm --recursive style",
+    "start": "pnpm --recursive start"
+  },
   "author": "Thiago Rezende <thiago.manoel.rezende@gmail.com>",
   "license": "BSD-3-Clause"
 }
