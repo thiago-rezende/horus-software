@@ -2,9 +2,9 @@
   "name": "identity",
   "version": "0.0.0",
   "scripts": {
-    "watch": "ng build --watch --configuration development",
-    "build": "ng build",
-    "check": "tsc --noEmit",
+    "watch": "ng serve --configuration development --watch",
+    "build": "ng build --configuration=production",
+    "check": "ng build --configuration=production --aot",
     "style": "eslint",
     "start": "ng serve"
   },

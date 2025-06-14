@@ -7,7 +7,7 @@ import style from '@stylistic/eslint-plugin'
 
 /* configuration */
 export default defineConfig([
-  globalIgnores(['build/*']),
+  globalIgnores(['node_modules/*', 'build/*', '.angular/*']),
   js.configs.recommended,
   ts.configs.recommended,
   style.configs.recommended,
