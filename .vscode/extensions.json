@@ -3,12 +3,9 @@
     /* general */
     "eamodio.gitlens",
     "EditorConfig.EditorConfig",
-
     /* utilities */
     "qcz.text-power-tools",
-
     /* linting & formatting */
-    "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint"
   ]
 }

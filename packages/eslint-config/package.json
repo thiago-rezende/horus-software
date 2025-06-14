@@ -1,0 +1,23 @@
+{
+  "name": "@horus-software/eslint-config",
+  "version": "0.0.0",
+  "description": "horus.software eslint configuration",
+  "private": true,
+  "scripts": {
+    "style": "eslint"
+  },
+  "author": "Thiago Rezende <thiago.manoel.rezende@gmail.com>",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@stylistic/eslint-plugin": "^4.4.1",
+    "eslint": "^9.29.0",
+    "globals": "^16.2.0"
+  },
+  "peerDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@stylistic/eslint-plugin": "^4.4.1",
+    "eslint": "^9.29.0",
+    "globals": "^16.2.0"
+  }
+}
