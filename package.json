@@ -8,11 +8,11 @@
     "packages/*"
   ],
   "scripts": {
-    "watch": "pnpm --recursive watch",
+    "watch": "pnpm --recursive --parallel watch",
     "build": "pnpm --recursive build",
-    "check": "pnpm --recursive check",
-    "style": "pnpm --recursive style",
-    "start": "pnpm --recursive start"
+    "check": "pnpm --recursive --parallel check",
+    "style": "pnpm --recursive --parallel style",
+    "start": "pnpm --recursive --parallel start"
   },
   "author": "Thiago Rezende <thiago.manoel.rezende@gmail.com>",
   "license": "BSD-3-Clause"
