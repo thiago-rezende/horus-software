@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "horus.software typescript configuration",
   "private": true,
-  "type": "module",
   "files": [
     "tsconfig.base.json"
   ],

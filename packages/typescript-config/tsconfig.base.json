@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     /* target */
-    "target": "ESNext",
-    "module": "ESNext",
+    "module": "CommonJS",
+    "target": "ES2024",
     /* module resolution */
     "moduleResolution": "node",
     /* libraries */
@@ -10,6 +10,16 @@
       "ESNext",
       "DOM"
     ],
+    /* declarations */
+    "declaration": true,
+    /* comments behavior */
+    "removeComments": true,
+    /* defualt imports */
+    "allowSyntheticDefaultImports": true,
+    /* source map behavior */
+    "sourceMap": true,
+    /* incremental build */
+    "incremental": true,
     /* interoperability */
     "esModuleInterop": true,
     /* file naming */
@@ -22,6 +32,9 @@
     "noImplicitThis": true,
     "noImplicitReturns": true,
     "noImplicitOverride": true,
+    /* decorators */
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     /* unused code */
     "noUnusedLocals": true,
     "allowUnusedLabels": false,

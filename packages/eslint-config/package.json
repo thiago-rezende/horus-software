@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "horus.software eslint configuration",
   "private": true,
-  "type": "module",
   "main": "index.mjs",
   "files": [
     "index.mjs",
