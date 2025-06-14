@@ -3,9 +3,12 @@
   "version": "0.0.0",
   "description": "horus.software eslint configuration",
   "private": true,
-  "scripts": {
-    "style": "eslint"
-  },
+  "type": "module",
+  "main": "index.mjs",
+  "files": [
+    "index.mjs",
+    "eslint.config.mjs"
+  ],
   "author": "Thiago Rezende <thiago.manoel.rezende@gmail.com>",
   "license": "BSD-3-Clause",
   "devDependencies": {
