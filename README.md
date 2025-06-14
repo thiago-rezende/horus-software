@@ -13,7 +13,7 @@
 
 <!-- Description -->
 
-This monorepo contains all core projects and shared packages of the [horus.software][horus-software-url] ecosystem. Built with [PNPM][pnpm-url] workspaces for scalable development, and developed using [TypeScript][typescript-url], [NestJS][nestjs-url] for backend services and [Angular][angular-url] for frontend applications.
+This monorepo contains all core projects and shared packages of the [horus.software][horus-software-url] ecosystem. Built with [PNPM][pnpm-url] workspaces for scalable development, and developed using [TypeScript][typescript-url] as the primary language, [NestJS][nestjs-url] for backend services and [Angular][angular-url] for frontend applications.
 
 <!-- Links -->
 
