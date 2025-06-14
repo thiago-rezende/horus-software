@@ -1,0 +1,14 @@
+{
+  /* extensions */
+  "extends": "@horus-software/typescript-config/tsconfig.base.json",
+  /* compiler options */
+  "compilerOptions": {
+    /* output & codebase */
+    "outDir": "build",
+    "baseUrl": "source",
+  },
+  /* files to include */
+  "include": [
+    "source/**/*"
+  ]
+}

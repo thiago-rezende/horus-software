@@ -1,4 +1,4 @@
-import { defineConfig } from 'eslint/config'
+import { defineConfig, globalIgnores } from 'eslint/config'
 
 /* plugins */
 import js from '@eslint/js'
@@ -7,6 +7,7 @@ import style from '@stylistic/eslint-plugin'
 
 /* configuration */
 export default defineConfig([
+  globalIgnores(['build/*']),
   js.configs.recommended,
   ts.configs.recommended,
   style.configs.recommended,

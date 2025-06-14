@@ -7,15 +7,13 @@
     "moduleResolution": "node",
     /* libraries */
     "lib": [
-      "ESNext"
+      "ESNext",
+      "DOM"
     ],
     /* interoperability */
     "esModuleInterop": true,
     /* file naming */
     "forceConsistentCasingInFileNames": true,
-    /* output & codebase */
-    "outDir": "./build",
-    "baseUrl": ".",
     /* strict */
     "strict": true,
     "alwaysStrict": true,
