@@ -1,4 +1,8 @@
 import { Module } from '@nestjs/common'
 
-@Module({})
+import { VersionModule } from '~/version/version.module'
+
+@Module({
+  imports: [VersionModule],
+})
 export class IdentityModule {}

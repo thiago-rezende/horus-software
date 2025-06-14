@@ -1,5 +1,6 @@
-import { Logger } from '@nestjs/common'
 import { NestFactory } from '@nestjs/core'
+
+import { Logger, VERSION_NEUTRAL, VersioningType } from '@nestjs/common'
 
 import type { NestExpressApplication } from '@nestjs/platform-express'
 
@@ -11,6 +12,13 @@ async function bootstrap() {
   logger.log(`Starting ${process.env.npm_package_name} <v${process.env.npm_package_version}>`)
 
   const application = await NestFactory.create<NestExpressApplication>(IdentityModule)
+
+  application.setGlobalPrefix('api')
+
+  application.enableVersioning({
+    type: VersioningType.URI,
+    defaultVersion: VERSION_NEUTRAL,
+  })
 
   const port = process.env.IDENTITY_API_SERVER_PORT ?? 3000
   const hostname = process.env.IDENTITY_API_SERVER_HOSTNAME ?? 'localhost'
