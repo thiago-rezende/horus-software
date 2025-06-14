@@ -5,6 +5,8 @@
     "EditorConfig.EditorConfig",
     /* utilities */
     "qcz.text-power-tools",
+    /* syntax highlight */
+    "mikestead.dotenv",
     /* linting & formatting */
     "dbaeumer.vscode-eslint"
   ]
