@@ -4,16 +4,17 @@
   "description": "horus.software identity provider api",
   "private": true,
   "scripts": {
-    "watch": "nest start --watch",
+    "watch": "nest --env-file-if-exists .env start --watch",
     "build": "nest build",
     "check": "tsc --noEmit",
     "style": "eslint",
-    "start": "node build/entrypoint.js"
+    "start": "node --env-file-if-exists .env build/entrypoint.js"
   },
   "author": "Thiago Rezende <thiago.manoel.rezende@gmail.com>",
   "license": "BSD-3-Clause",
   "dependencies": {
     "@nestjs/common": "^11.1.3",
+    "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^11.1.3",
     "@nestjs/platform-express": "^11.1.3",
     "reflect-metadata": "^0.2.2",

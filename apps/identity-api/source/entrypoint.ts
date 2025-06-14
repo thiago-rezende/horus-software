@@ -20,8 +20,8 @@ async function bootstrap() {
     defaultVersion: VERSION_NEUTRAL,
   })
 
-  const port = process.env.IDENTITY_API_SERVER_PORT ?? 3000
-  const hostname = process.env.IDENTITY_API_SERVER_HOSTNAME ?? 'localhost'
+  const port = parseInt(process.env.IDENTITY_API_SERVER_PORT, 10) || 3000
+  const hostname = process.env.IDENTITY_API_SERVER_HOSTNAME || 'localhost'
 
   await application.listen(port, hostname)
 

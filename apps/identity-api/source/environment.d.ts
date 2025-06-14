@@ -6,7 +6,7 @@ declare namespace NodeJS {
     npm_package_description: string
 
     /* application variables */
-    IDENTITY_API_SERVER_PORT: number
+    IDENTITY_API_SERVER_PORT: string
     IDENTITY_API_SERVER_HOSTNAME: string
   }
 }
