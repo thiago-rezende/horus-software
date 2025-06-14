@@ -1,7 +1,10 @@
 packages:
   - apps/*
   - packages/*
-
 onlyBuiltDependencies:
-  - '@swc/core'
   - '@nestjs/core'
+  - '@parcel/watcher'
+  - '@swc/core'
+  - esbuild
+  - lmdb
+  - msgpackr-extract

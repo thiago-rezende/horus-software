@@ -1,4 +1,9 @@
 {
+  /* eslint */
+  "eslint.validate": [
+    "typescript",
+    "javascript"
+  ],
   /* languages */
   "[typescript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
