@@ -7,5 +7,11 @@
     "tsconfig.base.json"
   ],
   "author": "Thiago Rezende <thiago.manoel.rezende@gmail.com>",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  }
 }
