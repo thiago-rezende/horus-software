@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "watch": "ng serve --configuration development --watch",
-    "build": "ng build --configuration=production",
-    "check": "ng build --configuration=production --aot",
+    "build": "ng build --configuration production",
+    "check": "ng build --configuration production --aot",
     "style": "eslint",
-    "start": "ng serve"
+    "start": "ng serve --configuration production --watch false --live-reload false"
   },
   "private": true,
   "dependencies": {
@@ -27,7 +27,10 @@
     "@horus-software/eslint-config": "workspace:*",
     "@horus-software/typescript-config": "workspace:*",
     "@stylistic/eslint-plugin": "^4.4.1",
+    "@tailwindcss/postcss": "^4.1.10",
     "eslint": "^9.29.0",
+    "postcss": "^8.5.5",
+    "tailwindcss": "^4.1.10",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.34.0"
   }

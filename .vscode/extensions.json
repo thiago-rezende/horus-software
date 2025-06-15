@@ -7,6 +7,9 @@
     "qcz.text-power-tools",
     /* syntax highlight */
     "mikestead.dotenv",
+    /* language servers */
+    "Angular.ng-template",
+    "bradlc.vscode-tailwindcss",
     /* linting & formatting */
     "dbaeumer.vscode-eslint"
   ]

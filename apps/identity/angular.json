@@ -9,7 +9,7 @@
         "@schematics/angular:component": {
           "inlineTemplate": true,
           "inlineStyle": true,
-          "style": "scss",
+          "style": "css",
           "skipTests": true
         },
         "@schematics/angular:class": {
@@ -43,7 +43,7 @@
           "options": {
             "browser": "source/entrypoint.ts",
             "tsConfig": "tsconfig.build.json",
-            "inlineStyleLanguage": "scss",
+            "inlineStyleLanguage": "css",
             "outputPath": "build",
             "assets": [
               {
@@ -52,7 +52,7 @@
               }
             ],
             "styles": [
-              "source/global.styles.scss"
+              "source/global.styles.css"
             ]
           },
           "configurations": {
