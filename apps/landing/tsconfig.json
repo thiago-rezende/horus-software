@@ -1,0 +1,40 @@
+{
+  /* extensions */
+  "extends": "@horus-software/typescript-config/tsconfig.base.json",
+  /* compiler options */
+  "compilerOptions": {
+    /* angular compiler options */
+    "target": "ES2022",
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    /* composite */
+    "composite": true,
+    /* output & codebase */
+    "outDir": "build",
+    "baseUrl": "source",
+    /* paths config */
+    "paths": {
+      "~/*": [
+        "*"
+      ]
+    }
+  },
+  /* files to include */
+  "include": [
+    "source/**/*"
+  ],
+  /* angular conpiler optionr */
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "typeCheckHostBindings": true,
+    "strictTemplates": true
+  },
+  /* angular build references */
+  "references": [
+    {
+      "path": "./tsconfig.build.json"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "name": "@horus-software/identity",
+  "name": "@horus-software/landing",
   "version": "0.0.0",
-  "description": "horus.software identity provider",
+  "description": "horus.software landing page",
   "private": true,
   "scripts": {
     "watch": "ng serve --configuration development --watch",

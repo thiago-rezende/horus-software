@@ -5,7 +5,7 @@ const config: Config = {
     baseUrl: 'http://localhost:3000',
   },
   project: {
-    name: 'identity',
+    name: '@horus-software/identity',
     version: '0.0.0',
     description: 'horus.software identity provider api',
   },
