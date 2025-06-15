@@ -1,6 +1,8 @@
 {
   "name": "identity",
   "version": "0.0.0",
+  "description": "horus.software identity provider",
+  "private": true,
   "scripts": {
     "watch": "ng serve --configuration development --watch",
     "build": "ng build --configuration production",
@@ -8,7 +10,8 @@
     "style": "eslint",
     "start": "ng serve --configuration production --watch false --live-reload false"
   },
-  "private": true,
+  "author": "Thiago Rezende <thiago.manoel.rezende@gmail.com>",
+  "license": "BSD-3-Clause",
   "dependencies": {
     "@angular/common": "^20.0.0",
     "@angular/compiler": "^20.0.0",

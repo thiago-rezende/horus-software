@@ -13,6 +13,8 @@ async function bootstrap() {
 
   const application = await NestFactory.create<NestExpressApplication>(IdentityModule)
 
+  application.enableCors()
+
   application.setGlobalPrefix('api')
 
   application.enableVersioning({
