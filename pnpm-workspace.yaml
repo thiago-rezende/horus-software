@@ -5,6 +5,7 @@ onlyBuiltDependencies:
   - '@nestjs/core'
   - '@parcel/watcher'
   - '@swc/core'
+  - '@tailwindcss/oxide'
   - esbuild
   - lmdb
   - msgpackr-extract
