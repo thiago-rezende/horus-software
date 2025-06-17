@@ -1,0 +1,35 @@
+{
+  "name": "@horus-software/identity",
+  "version": "0.0.0",
+  "description": "horus.software identity provider",
+  "private": true,
+  "scripts": {
+    "watch": "next dev --turbopack --port 30010",
+    "build": "next build",
+    "check": "tsc --noEmit",
+    "style": "next lint",
+    "start": "next start --port 30010"
+  },
+  "author": "Thiago Rezende <thiago.manoel.rezende@gmail.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "next": "15.3.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@horus-software/eslint-config": "workspace:*",
+    "@horus-software/typescript-config": "workspace:*",
+    "@next/eslint-plugin-next": "^15.3.3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

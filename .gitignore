@@ -9,11 +9,5 @@
 # node
 node_modules/
 
-# build artifacts
-build/
-
 # environment
 .env
-
-# angular cache
-.angular/
