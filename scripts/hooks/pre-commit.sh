@@ -2,3 +2,4 @@
 
 set -euo pipefail
 
+# TODO: pre-commit procedure

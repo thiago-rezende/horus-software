@@ -53,15 +53,15 @@ script__usage() {
   echo -e "  $ansi_blue_bold $script_description $ansi_reset"
   echo -e ""
   echo -e "[$ansi_white_bold usage $ansi_reset]"
-  echo -e "  $ansi_green $script_name $ansi_white utility $ansi_yellow command $ansi_magenta < argument > $ansi_cyan [ options ] $ansi_reset"
+  echo -e "  $ansi_green $script_name $ansi_white utility $ansi_yellow command $ansi_magenta argument $ansi_cyan options $ansi_reset"
   echo -e ""
   echo -e "[$ansi_white_bold utilities $ansi_reset]"
-  echo -e "  $ansi_white help $ansi_reset     - show this help message"
-  echo -e "  $ansi_white hooks $ansi_reset    - execute the$ansi_white git hooks$ansi_reset utility"
+  echo -e "  $ansi_white help $ansi_reset    - show this help message"
+  echo -e "  $ansi_white hooks $ansi_reset   - execute the$ansi_white git hooks$ansi_reset utility"
   echo -e ""
   echo -e "[$ansi_white_bold hooks $ansi_reset]"
-  echo -e "  $ansi_yellow enable $ansi_reset  - generate a enable hooks"
-  echo -e "  $ansi_yellow disable $ansi_reset - generate a enable hooks"
+  echo -e "  $ansi_yellow enable$ansi_reset   - enable git hooks"
+  echo -e "  $ansi_yellow disable$ansi_reset  - diable git hooks"
   echo -e ""
   echo -e "[$ansi_white_bold options $ansi_reset]"
   echo -e "   $ansi_cyan --quiet $ansi_reset - reduce verbosity"
@@ -149,19 +149,15 @@ hooks__handler() {
 }
 
 hooks__enable() {
-  local hook=$1
+  echo >&3 -e "[$ansi_white hooks $ansi_reset] enabling the '$ansi_yellow git hooks $ansi_reset'"
 
-  echo >&3 -e "[$ansi_white hooks $ansi_reset] enabling the '$ansi_yellow $hook $ansi_reset' git hook"
-
-  echo >&${script_logs_directory}/hooks__enable.log "simulating the enable of git hooks"
+  echo >&${script_logs_directory}/hooks__enable.log "simulating the activation of git hooks"
 }
 
 hooks__disable() {
-  local hook=$1
+  echo >&3 -e "[$ansi_white hooks $ansi_reset] disabling the '$ansi_yellow git hooks $ansi_reset'"
 
-  echo >&3 -e "[$ansi_white hooks $ansi_reset] disabling the '$ansi_yellow $hook $ansi_reset' git hook"
-
-  echo >&${script_logs_directory}/hooks__disable.log "simulating the disable of git hooks"
+  echo >&${script_logs_directory}/hooks__disable.log "simulating the deactivation of git hooks"
 }
 
 # options handler
