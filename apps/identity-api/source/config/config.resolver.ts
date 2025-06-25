@@ -11,5 +11,11 @@ export function resolveConfig(): Config {
       version: process.env.npm_package_version || 'unknown',
       description: process.env.npm_package_description || 'unknown',
     },
+    database: {
+      type: process.env.TYPEORM_TYPE || 'sqlite',
+      database: process.env.TYPEORM_DATABASE || ':memory:',
+      synchronize: process.env.TYPEORM_SYNCHRONIZE || true,
+      autoLoadEntities: process.env.TYPEORM_AUTO_LOAD_ENTITIES || true,
+    },
   }
 }

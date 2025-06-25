@@ -9,7 +9,15 @@ export interface ProjectConfig {
   description: string
 }
 
+export interface DatabaseConfig {
+  type: 'sqlite' | 'postgres'
+  database: string
+  synchronize: boolean
+  autoLoadEntities: boolean
+}
+
 export interface Config {
   server: ServerConfig
   project: ProjectConfig
+  database: DatabaseConfig
 }
