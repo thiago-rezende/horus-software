@@ -4,6 +4,8 @@ import { Logger, VERSION_NEUTRAL, VersioningType } from '@nestjs/common'
 
 import type { NestExpressApplication } from '@nestjs/platform-express'
 
+import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger'
+
 import { IdentityModule } from './identity.module'
 
 async function bootstrap() {
@@ -20,6 +22,18 @@ async function bootstrap() {
   application.enableVersioning({
     type: VersioningType.URI,
     defaultVersion: VERSION_NEUTRAL,
+  })
+
+  const swagger = new DocumentBuilder()
+    .setTitle(process.env.npm_package_name)
+    .setVersion(process.env.npm_package_version)
+    .setDescription(process.env.npm_package_description)
+    .build()
+
+  const documentFactory = () => SwaggerModule.createDocument(application, swagger)
+
+  SwaggerModule.setup('/api/swagger', application, documentFactory, {
+    jsonDocumentUrl: '/api/swagger/json',
   })
 
   const port = parseInt(process.env.IDENTITY_API_SERVER_PORT, 10) || 3000
