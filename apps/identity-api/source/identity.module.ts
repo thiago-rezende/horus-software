@@ -4,10 +4,11 @@ import { ConfigModule, ConfigService } from '@nestjs/config'
 
 import { TypeOrmModule } from '@nestjs/typeorm'
 
+import { Config, DatabaseConfig } from '~/config/config.interfaces'
+
 import { resolveConfig } from '~/config/config.resolver'
 
 import { VersionModule } from '~/version/version.module'
-import { Config, DatabaseConfig } from '~/config/config.interfaces'
 
 @Module({
   imports: [
