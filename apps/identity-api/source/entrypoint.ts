@@ -5,6 +5,7 @@ import { Logger, VERSION_NEUTRAL, VersioningType } from '@nestjs/common'
 import type { NestExpressApplication } from '@nestjs/platform-express'
 
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger'
+import { SwaggerTheme, SwaggerThemeNameEnum } from 'swagger-themes'
 
 import { IdentityModule } from './identity.module'
 
@@ -34,6 +35,7 @@ async function bootstrap() {
 
   SwaggerModule.setup('/api/swagger', application, documentFactory, {
     jsonDocumentUrl: '/api/swagger/json',
+    customCss: new SwaggerTheme().getBuffer(SwaggerThemeNameEnum.DARK),
   })
 
   const port = parseInt(process.env.IDENTITY_API_SERVER_PORT, 10) || 3000
