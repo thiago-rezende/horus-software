@@ -10,6 +10,8 @@ import { resolveConfig } from '~/config/config.resolver'
 
 import { VersionModule } from '~/version/version.module'
 
+import { UsersModule } from '~/users/users.module'
+
 @Module({
   imports: [
     ConfigModule.forRoot({
@@ -27,6 +29,7 @@ import { VersionModule } from '~/version/version.module'
       }),
       inject: [ConfigService],
     }),
+    UsersModule,
     VersionModule,
   ],
 })

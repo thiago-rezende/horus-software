@@ -3,6 +3,8 @@
   "extends": "@horus-software/typescript-config/tsconfig.base.json",
   /* compiler options */
   "compilerOptions": {
+    /* strict */
+    "strictPropertyInitialization": false,
     /* output & codebase */
     "outDir": "build",
     "baseUrl": "source",
